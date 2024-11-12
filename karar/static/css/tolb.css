@@ -1,0 +1,112 @@
+
+.tolb-holder .tolb-close, .tolb-holder .tolb-title, .tolb-holder .tolb-counter, .tolb-holder .tolb-next i, .tolb-holder .tolb-prev i {
+    color: #ffffff
+}
+
+.tolb-holder .tolb-load {
+    border-color: rgba(255, 255, 255, 0.2);
+    border-left: 3px solid #ffffff
+}
+
+.to-heart-icon svg, .to-post-like, .to-post-like .to-like-count {
+    position: relative;
+    display: inline-block
+}
+
+
+.to-heart-icon svg {
+    overflow: visible;
+    width: 15px;
+    height: 14px
+}
+
+.to-heart-icon g {
+    -webkit-transform: scale(1);
+    transform: scale(1)
+}
+
+.to-heart-icon path {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    transition: fill .4s ease, stroke .4s ease
+}
+
+.no-liked .to-heart-icon path {
+    fill: #999;
+    stroke: #999
+}
+
+.empty-heart .to-heart-icon path {
+    fill: transparent !important;
+    stroke: #999
+}
+
+.liked .to-heart-icon path, .to-heart-icon svg:hover path {
+    fill: #ff6863 !important;
+    stroke: #ff6863 !important
+}
+
+@keyframes heartBeat {
+    0% {
+        transform: scale(1)
+    }
+    20% {
+        transform: scale(.8)
+    }
+    30% {
+        transform: scale(.95)
+    }
+    45% {
+        transform: scale(.75)
+    }
+    50% {
+        transform: scale(.85)
+    }
+    100% {
+        transform: scale(.9)
+    }
+}
+
+@-webkit-keyframes heartBeat {
+    0%, 100%, 50% {
+        -webkit-transform: scale(1)
+    }
+    20% {
+        -webkit-transform: scale(.8)
+    }
+    30% {
+        -webkit-transform: scale(.95)
+    }
+    45% {
+        -webkit-transform: scale(.75)
+    }
+}
+
+.heart-pulse g {
+    -webkit-animation-name: heartBeat;
+    animation-name: heartBeat;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%
+}
+.tolb-holder img {
+    height: calc(100vh - 80px);
+}
+.tolb-holder {
+    background: rgba(0, 0, 0, 0.8)!important;
+}
+@media (max-width: 1024px) {
+    .tolb-holder img {
+        height: auto;
+        width: calc(100% - 40px);
+        margin: 0 auto !important;
+    }
+}
+@media (max-width: 768px) {
+    .tolb-holder img {
+        width: 100%;
+    }
+}

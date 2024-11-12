@@ -1,0 +1,308 @@
+#grid-3983 .tg-nav-color:not(.dots):not(.tg-dropdown-value):not(.tg-dropdown-title):hover, #grid-3983 .tg-nav-color:hover .tg-nav-color, #grid-3983 .tg-page-number.tg-page-current, #grid-3983 .tg-filter.tg-filter-active span {
+    color: #ff6863
+}
+
+#grid-3983 .tg-filter:before, #grid-3983 .tg-filter.tg-filter-active:before {
+    color: #999999
+}
+
+#grid-3983 .tg-dropdown-holder, #grid-3983 .tg-search-inner, #grid-3983 .tg-sorter-order {
+    border: 1px solid #DDDDDD
+}
+
+#grid-3983 .tg-search-clear, #grid-3983 .tg-search-clear:hover {
+    border: none;
+    border-left: 1px solid #DDDDDD
+}
+
+.tg-txt .tg-nav-font, .tg-txt input[type=text].tg-search {
+    font-size: 14px;
+    font-weight: 600
+}
+
+.tg-txt .tg-search::-webkit-input-placeholder {
+    font-size: 14px
+}
+
+.tg-txt .tg-search::-moz-placeholder {
+    font-size: 14px
+}
+
+.tg-txt .tg-search:-ms-input-placeholder {
+    font-size: 14px
+}
+
+.tg-txt .tg-icon-left-arrow:before {
+    content: "\e604";
+    font-size: 32px;
+    font-weight: 100
+}
+
+.tg-txt .tg-icon-right-arrow:before {
+    content: "\e602";
+    font-size: 32px;
+    font-weight: 100
+}
+
+.tg-txt .tg-icon-dropdown-open:before, .tg-txt .tg-icon-sorter-down:before {
+    content: "\e60a"
+}
+
+.tg-txt .tg-icon-sorter-up:before {
+    content: "\e609"
+}
+
+.tg-txt .tg-search-clear:before {
+    content: "\e611";
+    font-weight: 300
+}
+
+.tg-txt .tg-search-icon:before {
+    content: "\e62e";
+    font-size: 16px;
+    font-weight: 600
+}
+
+#grid-3983 .tg-nav-color, #grid-3983 .tg-search-icon:hover:before, #grid-3983 .tg-search-icon:hover input, #grid-3983 .tg-disabled:hover .tg-icon-left-arrow, #grid-3983 .tg-disabled:hover .tg-icon-right-arrow, #grid-3983 .tg-dropdown-title.tg-nav-color:hover {
+    color: #999999
+}
+
+#grid-3983 input.tg-search:hover {
+    color: #999999 !important
+}
+
+#grid-3983 input.tg-search::-webkit-input-placeholder {
+    color: #999999
+}
+
+#grid-3983 input.tg-search::-moz-placeholder {
+    color: #999999;
+    opacity: 1
+}
+
+#grid-3983 input.tg-search:-ms-input-placeholder {
+    color: #999999
+}
+
+.grid-3983 .tg-dropdown-item {
+    color: #777777;
+    background: #ffffff
+}
+
+.grid-3983 .tg-filter-active, .grid-3983 .tg-dropdown-item:hover {
+    color: #444444;
+    background: #f5f6fa
+}
+
+#grid-3983 .tg-slider-bullets li.tg-active-item span {
+    background: #59585b
+}
+
+#grid-3983 .tg-slider-bullets li span {
+    background: #DDDDDD
+}
+
+.lisboa a, .lisboa a:active, .lisboa a:focus, .lisboa .tg-item-title, .lisboa .tg-item-excerpt, .lisboa .tg-cats-holder {
+    text-decoration: none;
+    border: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -webkit-transition: opacity 0.25s ease, color 0.25s ease, -webkit-transform 0.3s ease-in-out;
+    -moz-transition: opacity 0.25s ease, color 0.25s ease, -moz-transform 0.3s ease-in-out;
+    -ms-transition: opacity 0.25s ease, color 0.25s ease, -ms-transform 0.3s ease-in-out;
+    -o-transition: opacity 0.25s ease, color 0.25s ease, -o-transform 0.3s ease-in-out;
+    transition: opacity 0.25s ease, color 0.25s ease, transform 0.3s ease-in-out
+}
+
+.lisboa.tg-item {
+    cursor: pointer
+}
+
+.lisboa .tg-center-holder {
+    text-align: center
+}
+
+.lisboa .tg-item-inner {
+    overflow: hidden
+}
+
+.lisboa .tg-center-holder {
+    opacity: 0
+}
+
+.lisboa:hover .tg-center-holder {
+    opacity: 1
+}
+
+.lisboa .tg-center-holder {
+    padding: 20px 10px
+}
+
+.lisboa .tg-item-title {
+    -webkit-transform: translateY(-20px);
+    -moz-transform: translateY(-20px);
+    -ms-transform: translateY(-20px);
+    -o-transform: translateY(-20px);
+    transform: translateY(-20px)
+}
+
+.lisboa .tg-item-excerpt, .lisboa .tg-cats-holder {
+    -webkit-transform: translateY(20px);
+    -moz-transform: translateY(20px);
+    -ms-transform: translateY(20px);
+    -o-transform: translateY(20px);
+    transform: translateY(20px)
+}
+
+.lisboa:hover .tg-item-title, .lisboa:hover .tg-item-excerpt, .lisboa:hover .tg-cats-holder {
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+    transform: translateY(0)
+}
+
+.lisboa .tg-media-button i {
+    display: none !important
+}
+
+.lisboa .tg-media-button, .lisboa .tg-item-media-holder, .lisboa .tg-item-overlay {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0
+}
+
+.lisboa:hover .tg-item-overlay {
+    opacity: 1
+}
+
+.lisboa.tg-force-play .tg-media-button, .lisboa.tg-is-playing .tg-media-button {
+    opacity: 0;
+    visibility: hidden
+}
+
+.lisboa .tg-item-title, .lisboa .tg-item-title a, .lisboa .tg-item-excerpt {
+    position: relative;
+    display: block;
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: 600;
+    margin: 0 !important;
+    padding: 0 !important;
+    text-align: center
+}
+
+.lisboa .tg-item-excerpt {
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: normal;
+    padding: 8px 4px 0 4px !important
+}
+
+.lisboa .tg-cats-holder {
+    position: relative;
+    display: block;
+    margin: 0;
+    font-size: 12px;
+    line-height: 16px;
+    padding: 6px 0 0 0;
+    font-weight: 600
+}
+
+.lisboa .tg-cats-holder * {
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 600
+}
+
+.lisboa .tg-cats-holder a:hover {
+    opacity: 0.7
+}
+
+.tg-item .tg-dark div, .tg-item .tg-dark h1, .tg-item .tg-dark h1 a, .tg-item .tg-dark h2, .tg-item .tg-dark h2 a, .tg-item .tg-dark h3, .tg-item .tg-dark h3 a, .tg-item .tg-dark h4, .tg-item .tg-dark h4 a, .tg-item .tg-dark h5, .tg-item .tg-dark h5 a, .tg-item .tg-dark h6, .tg-item .tg-dark h6 a, .tg-item .tg-dark a, .tg-item .tg-dark a.tg-link-url, .tg-item .tg-dark i, .tg-item .tg-dark .tg-media-button, .tg-item .tg-dark .tg-item-price span {
+    color: #444444;
+    fill: #444444;
+    stroke: #444444;
+    border-color: #444444
+}
+
+.tg-item .tg-dark p, .tg-item .tg-dark ol, .tg-item .tg-dark ul, .tg-item .tg-dark li {
+    color: #777777;
+    fill: #777777;
+    stroke: #777777;
+    border-color: #777777
+}
+
+.tg-item .tg-dark span, .tg-item .tg-dark .no-liked .to-heart-icon path, .tg-item .tg-dark .empty-heart .to-heart-icon path, .tg-item .tg-dark .tg-item-comment i, .tg-item .tg-dark .tg-item-price del span {
+    color: #999999;
+    fill: #999999;
+    stroke: #999999;
+    border-color: #999999
+}
+
+.tg-item .tg-light div, .tg-item .tg-light h1, .tg-item .tg-light h1 a, .tg-item .tg-light h2, .tg-item .tg-light h2 a, .tg-item .tg-light h3, .tg-item .tg-light h3 a, .tg-item .tg-light h4, .tg-item .tg-light h4 a, .tg-item .tg-light h5, .tg-item .tg-light h5 a, .tg-item .tg-light h6, .tg-item .tg-light h6 a, .tg-item .tg-light a, .tg-item .tg-light a.tg-link-url, .tg-item .tg-light i, .tg-item .tg-light .tg-media-button, .tg-item .tg-light .tg-item-price span {
+    color: #ffffff;
+    fill: #ffffff;
+    stroke: #ffffff;
+    border-color: #ffffff
+}
+
+.tg-item .tg-light p, .tg-item .tg-light ol, .tg-item .tg-light ul, .tg-item .tg-light li {
+    color: #f6f6f6;
+    fill: #f6f6f6;
+    stroke: #f6f6f6;
+    border-color: #f6f6f6
+}
+
+.tg-item .tg-light span, .tg-item .tg-light .no-liked .to-heart-icon path, .tg-item .tg-light .empty-heart .to-heart-icon path, .tg-item .tg-light .tg-item-comment i, .tg-item .tg-light .tg-item-price del span {
+    color: #f5f5f5;
+    fill: #f5f5f5;
+    stroke: #f5f5f5;
+    border-color: #f5f5f5
+}
+
+#grid-3983 .tg-item-content-holder {
+    background-color: #ffffff
+}
+
+#grid-3983 .tg-item-overlay {
+    background-color: rgba(22, 22, 22, 0.65)
+}
+
+.iso-posts-lisboa .tg-item-title a {
+    font-family: "Playfair Display", sans-serif;
+    font-size: 30px !important;
+    font-weight: 600;
+    line-height: 1.4 !important
+}
+
+.iso-posts-lisboa .tg-item-excerpt {
+    font-size: 13px;
+    margin-bottom: 10px !important
+}
+
+.iso-posts-lisboa .tg-cats-holder a {
+    font-family: "Open Sans", sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    line-height: 2;
+    text-transform: uppercase
+}
+
+.iso-posts-lisboa .tg-cats-holder a span {
+    color: #a09c8b !important
+}
+
+.iso-posts-lisboa .tg-cats-holder span {
+    color: #a09c8b !important
+}
+
+@media only screen and (max-width: 768px) {
+    .iso-posts-lisboa .tg-item-title a {
+        font-size: 24px !important
+    }
+}

@@ -1,0 +1,19 @@
+#post-body-content .menu-item .style-option {
+    display: none;
+}
+
+#post-body-content .menu-item .sign-up-item {
+    display: none;
+}
+
+#post-body-content .menu-item.menu-item-depth-0 .style-option {
+    display: block;
+    margin: 10px 2px 0;
+}
+
+#post-body-content .menu-item.menu-item-depth-1 .sign-up-item {
+    display: block;
+    margin: 10px 2px 0;
+}
+
+

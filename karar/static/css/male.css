@@ -1,0 +1,385 @@
+#grid-4014 {
+    margin-left: 15px;
+    margin-right: 15px
+}
+
+#grid-4014 .tg-nav-color:not(.dots):not(.tg-dropdown-value):not(.tg-dropdown-title):hover, #grid-4014 .tg-nav-color:hover .tg-nav-color, #grid-4014 .tg-page-number.tg-page-current, #grid-4014 .tg-filter.tg-filter-active span {
+    color: #ff6863
+}
+
+#grid-4014 .tg-filter:before, #grid-4014 .tg-filter.tg-filter-active:before {
+    color: #999999
+}
+
+#grid-4014 .tg-dropdown-holder, #grid-4014 .tg-search-inner, #grid-4014 .tg-sorter-order {
+    border: 1px solid #DDDDDD
+}
+
+#grid-4014 .tg-search-clear, #grid-4014 .tg-search-clear:hover {
+    border: none;
+    border-left: 1px solid #DDDDDD
+}
+
+.tg-txt .tg-nav-font, .tg-txt input[type=text].tg-search {
+    font-size: 14px;
+    font-weight: 600
+}
+
+.tg-txt .tg-search::-webkit-input-placeholder {
+    font-size: 14px
+}
+
+.tg-txt .tg-search::-moz-placeholder {
+    font-size: 14px
+}
+
+.tg-txt .tg-search:-ms-input-placeholder {
+    font-size: 14px
+}
+
+.tg-txt .tg-icon-left-arrow:before {
+    content: "\e604";
+    font-size: 32px;
+    font-weight: 100
+}
+
+.tg-txt .tg-icon-right-arrow:before {
+    content: "\e602";
+    font-size: 32px;
+    font-weight: 100
+}
+
+.tg-txt .tg-icon-dropdown-open:before, .tg-txt .tg-icon-sorter-down:before {
+    content: "\e60a"
+}
+
+.tg-txt .tg-icon-sorter-up:before {
+    content: "\e609"
+}
+
+.tg-txt .tg-search-clear:before {
+    content: "\e611";
+    font-weight: 300
+}
+
+.tg-txt .tg-search-icon:before {
+    content: "\e62e";
+    font-size: 16px;
+    font-weight: 600
+}
+
+#grid-4014 .tg-nav-color, #grid-4014 .tg-search-icon:hover:before, #grid-4014 .tg-search-icon:hover input, #grid-4014 .tg-disabled:hover .tg-icon-left-arrow, #grid-4014 .tg-disabled:hover .tg-icon-right-arrow, #grid-4014 .tg-dropdown-title.tg-nav-color:hover {
+    color: #999999
+}
+
+#grid-4014 input.tg-search:hover {
+    color: #999999 !important
+}
+
+#grid-4014 input.tg-search::-webkit-input-placeholder {
+    color: #999999
+}
+
+#grid-4014 input.tg-search::-moz-placeholder {
+    color: #999999;
+    opacity: 1
+}
+
+#grid-4014 input.tg-search:-ms-input-placeholder {
+    color: #999999
+}
+
+.grid-4014 .tg-dropdown-item {
+    color: #777777;
+    background: #ffffff
+}
+
+.grid-4014 .tg-filter-active, .grid-4014 .tg-dropdown-item:hover {
+    color: #444444;
+    background: #f5f6fa
+}
+
+#grid-4014 .tg-slider-bullets li.tg-active-item span {
+    background: #59585b
+}
+
+#grid-4014 .tg-slider-bullets li span {
+    background: #DDDDDD
+}
+
+.male a, .male a:active, .male a:focus, .male .tg-item-media-holder, .is-ie .male .tg-item-content, .male .tg-rotate-3d.tg-is-rotate, .male .mejs-container, .is-ie .male .tg-item-inner {
+    text-decoration: none;
+    border: none;
+    -webkit-box-shadow: none;
+    box-shadow: none
+}
+
+.male .tg-item-content-holder, .male .tg-item-media-holder {
+    background: transparent !important
+}
+
+.male .tg-item-inner {
+    overflow: hidden
+}
+
+.male .tg-center-holder {
+    text-align: center
+}
+
+.male .tg-item-link {
+    position: absolute;
+    display: block;
+    top: -1000%;
+    left: 0;
+    width: 100%;
+    height: 2000%
+}
+
+.male .tg-item-content {
+    padding: 22px
+}
+
+.tg-layout-justified .male .tg-item-content {
+    padding: 12px
+}
+
+.is-ie .male .tg-item-content {
+    background: none
+}
+
+.male .tg-item-title, .male .tg-item-title a {
+    position: relative;
+    display: block;
+    backface-visibility: hidden;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 600;
+    margin: 0 !important;
+    padding: 0 !important;
+    text-transform: uppercase
+}
+
+.tg-layout-justified .male .tg-item-title, .tg-layout-justified .male .tg-item-title a {
+    font-size: 14px;
+    line-height: 18px
+}
+
+.male .tg-item-title {
+    margin: 0 30px 5px 30px !important
+}
+
+.male .tg-cats-holder {
+    position: relative;
+    display: block;
+    margin: 0 30px 10px 30px;
+    font-size: 13px;
+    line-height: 18px
+}
+
+.male .tg-cats-holder span {
+    font-style: italic
+}
+
+.male .tg-media-button {
+    position: absolute;
+    display: block;
+    bottom: 22px;
+    right: 22px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    text-align: center;
+    pointer-events: auto
+}
+
+.tg-layout-justified .male .tg-media-button {
+    bottom: 12px;
+    right: 12px
+}
+
+.male h2 a:hover, .male .tg-cats-holder a:hover, .male .tg-media-button:hover {
+    opacity: 0.75
+}
+
+.male .tg-media-button i {
+    position: relative;
+    display: block;
+    width: 20px;
+    height: 20px;
+    font-size: 18px;
+    line-height: 20px;
+    cursor: pointer
+}
+
+.male .tg-media-button .tg-icon-add {
+    font-size: 28px
+}
+
+.male .tg-item-front, .male .tg-item-back, .male .tg-item-back-inner, .male .tg-item-front-inner, .male .tg-item-overlay {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    max-width: 100% !important;
+    max-height: 100% !important;
+    -webkit-transition: -webkit-transform .5s !important;
+    -moz-transition: -moz-transform .5s;
+!important;
+    -ms-transition: -ms-transform .5s;
+!important;
+    -o-transition: -o-transform .5s !important;
+    transition: transform .5s !important
+}
+
+.male .tg-item-inner {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 1
+}
+
+.male .tg-item-front-inner {
+    transform-origin: top
+}
+
+.male:hover .tg-item-front {
+    -webkit-transform: translateY(100%);
+    -moz-transform: translateY(100%);
+    -ms-transform: translateY(100%);
+    -o-transform: translateY(100%);
+    transform: translateY(100%)
+}
+
+.male .tg-item-front, .male.tg-is-playing .tg-item-front, .male.tg-force-play .tg-item-front, .male:hover .tg-item-back {
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+    transform: translateY(0)
+}
+
+.male .tg-item-back, .male.tg-is-playing .tg-item-back, .male.tg-force-play .tg-item-back {
+    -webkit-transform: translateY(-100%);
+    -moz-transform: translateY(-100%);
+    -ms-transform: translateY(-100%);
+    -o-transform: translateY(-100%);
+    transform: translateY(-100%)
+}
+
+.male:hover .tg-item-front-inner {
+    -webkit-transform: perspective(550px) rotate3d(1, 0, 0, -90deg) translate3d(0, 0.0001%, 0);
+    -moz-transform: perspective(550px) rotate3d(1, 0, 0, -90deg) translate3d(0, 0.0001%, 0);
+    -ms-transform: perspective(550px) rotate3d(1, 0, 0, -90deg) translate3d(0, 0.0001%, 0);
+    -o-transform: perspective(550px) rotate3d(1, 0, 0, -90deg) translate3d(0, 0.0001%, 0);
+    transform: perspective(550px) rotate3d(1, 0, 0, -90deg) translate3d(0, 0.0001%, 0)
+}
+
+.male .tg-item-front-inner, .male.tg-is-playing .tg-item-front-inner, .male.tg-force-play .tg-item-front-inner, .male:hover .tg-item-back-inner {
+    opacity: 1 !important;
+    visibility: visible !important;
+    -webkit-transform: perspective(550px) rotate3d(1, 0, 0, 0deg) translate3d(0, 0.0001%, 0);
+    -moz-transform: perspective(550px) rotate3d(1, 0, 0, 0deg) translate3d(0, 0.0001%, 0);
+    -ms-transform: perspective(550px) rotate3d(1, 0, 0, 0deg) translate3d(0, 0.0001%, 0);
+    -o-transform: perspective(550px) rotate3d(1, 0, 0, 0deg) translate3d(0, 0.0001%, 0);
+    transform: perspective(550px) rotate3d(1, 0, 0, 0deg) translate3d(0, 0.0001%, 0)
+}
+
+.male .tg-item-back-inner, .male.tg-is-playing .tg-item-back-inner, .male.tg-force-play .tg-item-back-inner {
+    -webkit-transform: perspective(550px) rotate3d(1, 0, 0, 90deg) translate3d(0, 0.0001%, 0);
+    -moz-transform: perspective(550px) rotate3d(1, 0, 0, 90deg) translate3d(0, 0.0001%, 0);
+    -ms-transform: perspective(550px) rotate3d(1, 0, 0, 90deg) translate3d(0, 0.0001%, 0);
+    -o-transform: perspective(550px) rotate3d(1, 0, 0, 90deg) translate3d(0, 0.0001%, 0);
+    transform: perspective(550px) rotate3d(1, 0, 0, 90deg) translate3d(0, 0.0001%, 0);
+    transform-origin: bottom
+}
+
+.tg-item .tg-dark div, .tg-item .tg-dark h1, .tg-item .tg-dark h1 a, .tg-item .tg-dark h2, .tg-item .tg-dark h2 a, .tg-item .tg-dark h3, .tg-item .tg-dark h3 a, .tg-item .tg-dark h4, .tg-item .tg-dark h4 a, .tg-item .tg-dark h5, .tg-item .tg-dark h5 a, .tg-item .tg-dark h6, .tg-item .tg-dark h6 a, .tg-item .tg-dark a, .tg-item .tg-dark a.tg-link-url, .tg-item .tg-dark i, .tg-item .tg-dark .tg-media-button, .tg-item .tg-dark .tg-item-price span {
+    color: #444444;
+    fill: #444444;
+    stroke: #444444;
+    border-color: #444444
+}
+
+.tg-item .tg-dark p, .tg-item .tg-dark ol, .tg-item .tg-dark ul, .tg-item .tg-dark li {
+    color: #777777;
+    fill: #777777;
+    stroke: #777777;
+    border-color: #777777
+}
+
+.tg-item .tg-dark span, .tg-item .tg-dark .no-liked .to-heart-icon path, .tg-item .tg-dark .empty-heart .to-heart-icon path, .tg-item .tg-dark .tg-item-comment i, .tg-item .tg-dark .tg-item-price del span {
+    color: #999999;
+    fill: #999999;
+    stroke: #999999;
+    border-color: #999999
+}
+
+.tg-item .tg-light div, .tg-item .tg-light h1, .tg-item .tg-light h1 a, .tg-item .tg-light h2, .tg-item .tg-light h2 a, .tg-item .tg-light h3, .tg-item .tg-light h3 a, .tg-item .tg-light h4, .tg-item .tg-light h4 a, .tg-item .tg-light h5, .tg-item .tg-light h5 a, .tg-item .tg-light h6, .tg-item .tg-light h6 a, .tg-item .tg-light a, .tg-item .tg-light a.tg-link-url, .tg-item .tg-light i, .tg-item .tg-light .tg-media-button, .tg-item .tg-light .tg-item-price span {
+    color: #ffffff;
+    fill: #ffffff;
+    stroke: #ffffff;
+    border-color: #ffffff
+}
+
+.tg-item .tg-light p, .tg-item .tg-light ol, .tg-item .tg-light ul, .tg-item .tg-light li {
+    color: #f6f6f6;
+    fill: #f6f6f6;
+    stroke: #f6f6f6;
+    border-color: #f6f6f6
+}
+
+.tg-item .tg-light span, .tg-item .tg-light .no-liked .to-heart-icon path, .tg-item .tg-light .empty-heart .to-heart-icon path, .tg-item .tg-light .tg-item-comment i, .tg-item .tg-light .tg-item-price del span {
+    color: #f5f5f5;
+    fill: #f5f5f5;
+    stroke: #f5f5f5;
+    border-color: #f5f5f5
+}
+
+#grid-4014 .tg-item-content-holder {
+    background-color: #ffffff
+}
+
+#grid-4014 .tg-item-overlay {
+    background-color: rgba(22, 22, 22, 0.65)
+}
+
+.iso-posts-male .tg-item-title {
+    margin-bottom: 15px !important
+}
+
+.iso-posts-male .tg-item-title a {
+    font-family: "Playfair Display", sans-serif;
+    font-size: 30px !important;
+    font-weight: 600;
+    line-height: 1.4 !important;
+    letter-spacing: 1.2px;
+    text-transform: none
+}
+
+.iso-posts-male .tg-cats-holder a {
+    font-family: "Open Sans", sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    line-height: 2;
+    text-transform: uppercase
+}
+
+.iso-posts-male .tg-cats-holder a span {
+    font-style: normal
+}
+
+.iso-posts-male .tg-item-overlay {
+    background-color: #222 !important
+}
+
+@media only screen and (max-width: 768px) {
+    .iso-posts-male .tg-item-title a {
+        font-size: 24px !important
+    }
+}
