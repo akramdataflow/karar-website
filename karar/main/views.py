@@ -6,4 +6,10 @@ from .models import Post
 def main(request):
     post_list = Post.objects.all()
     context = {'postes':post_list}
-    return render(request, 'post/index.html', context)
+    return render(request, 'home-4.html', context)
+
+
+def portfolio(request):
+    post_list = Post.objects.all()
+    context = {'postes':post_list}
+    return render(request, 'portfolio.html', context)    
