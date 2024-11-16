@@ -22,120 +22,30 @@
 						<li><a class="view-more" href="#" data-filter=".portraits">Portraits</a></li>
 						<li><a class="view-more" href="#" data-filter=".nature">Nature</a></li>
 					</ul>
-
+	
 					<div class="row layout-masonry portfolio-items">
-
-						<div class="col-sm-6 col-lg-3 blog-item-masonry portfolio-item weddings">
-							<div class="slider-img"> <a href="gallery-masonry.html"> <img
-										src="images/portfolio/featured-images/gal-1-450x600.jpg" class="img-fluid"
-										alt=""> </a>
+						{% for post in postes %}
+						<div class="col-sm-6 col-lg-3 blog-item-masonry portfolio-item {{ post.category }}">
+							<div class="slider-img"> 
+								<a href="{% url 'gallery' post.id %}">
+									<img src="{{ post.image.url }}" class="img-fluid" alt="">
+								</a>
 							</div>
 							<div class="slider-caption">
-								<h2><a href="gallery-masonry.html">Sara &amp; John</a></h2>
+								<h2><a href="{% url 'gallery' post.id %}">{{ post.name }}</a></h2>
 								<ul class="portfolio-categ">
-									<li>Weddings</li>
+									<li>{{ post.category }}</li>
 								</ul>
 							</div>
 						</div>
-
-						<div class="col-sm-6 col-lg-3 blog-item-masonry portfolio-item weddings">
-							<div class="slider-img"> <a href="gallery-masonry-fullwidth.html"> <img
-										src="images/portfolio/featured-images/gal-2-450x600.jpg" class="img-fluid"
-										alt=""> </a>
-							</div>
-							<div class="slider-caption">
-								<h2><a href="gallery-masonry-fullwidth.html">Alice &amp; Mike</a></h2>
-								<ul class="portfolio-categ">
-									<li>Weddings</li>
-								</ul>
-							</div>
-						</div>
-
-						<div class="col-sm-6 col-lg-3 blog-item-masonry portfolio-item weddings">
-							<div class="slider-img"> <a href="gallery-1-2-cols.html"> <img
-										src="images/portfolio/featured-images/gal-3-450x600.jpg" class="img-fluid"
-										alt=""> </a>
-							</div>
-							<div class="slider-caption">
-								<h2><a href="gallery-1-2-cols.html">Jane &amp; Paul</a></h2>
-								<ul class="portfolio-categ">
-									<li>Weddings</li>
-								</ul>
-							</div>
-						</div>
-
-						<div class="col-sm-6 col-lg-3 blog-item-masonry portfolio-item portraits">
-							<div class="slider-img"> <a href="gallery-3-cols.html"> <img
-										src="images/portfolio/featured-images/gal-4-450x600.jpg" class="img-fluid"
-										alt=""> </a>
-							</div>
-							<div class="slider-caption">
-								<h2><a href="gallery-3-cols.html">Street Photos</a></h2>
-								<ul class="portfolio-categ">
-									<li>Portraits</li>
-								</ul>
-							</div>
-						</div>
-
-						<div class="col-sm-6 col-lg-3 blog-item-masonry portfolio-item portraits">
-							<div class="slider-img"> <a href="gallery-4-cols.html"> <img
-										src="images/portfolio/featured-images/gal-5-450x600.jpg" class="img-fluid"
-										alt=""> </a>
-							</div>
-							<div class="slider-caption">
-								<h2><a href="gallery-4-cols.html">New Look</a></h2>
-								<ul class="portfolio-categ">
-									<li>Portraits</li>
-								</ul>
-							</div>
-						</div>
-
-						<div class="col-sm-6 col-lg-3 blog-item-masonry portfolio-item portraits">
-							<div class="slider-img"> <a href="gallery-masonry.html"> <img
-										src="images/portfolio/featured-images/gal-6-450x600.jpg" class="img-fluid"
-										alt=""> </a>
-							</div>
-							<div class="slider-caption">
-								<h2><a href="gallery-masonry.html">Black &amp; White</a></h2>
-								<ul class="portfolio-categ">
-									<li>Portraits</li>
-								</ul>
-							</div>
-						</div>
-
-						<div class="col-sm-6 col-lg-3 blog-item-masonry portfolio-item nature">
-							<div class="slider-img"> <a href="gallery-3-cols-fullwidth.html"> <img
-										src="images/portfolio/featured-images/gal-7-450x600.jpg" class="img-fluid"
-										alt=""> </a>
-							</div>
-							<div class="slider-caption">
-								<h2><a href="gallery-3-cols-fullwidth.html">Seaside</a></h2>
-								<ul class="portfolio-categ">
-									<li>Nature</li>
-								</ul>
-							</div>
-						</div>
-
-						<div class="col-sm-6 col-lg-3 blog-item-masonry portfolio-item nature">
-							<div class="slider-img"> <a href="gallery-4-cols-fullwidth.html"> <img
-										src="images/portfolio/featured-images/gal-8-450x600.jpg" class="img-fluid"
-										alt=""> </a>
-							</div>
-							<div class="slider-caption">
-								<h2><a href="gallery-4-cols-fullwidth.html">Landscapes</a></h2>
-								<ul class="portfolio-categ">
-									<li>Nature</li>
-								</ul>
-							</div>
-						</div>
-
+						{% endfor %}
 					</div><!-- /row -->
-
+	
 				</div><!-- /col-lg-12 -->
 			</div><!-- /row -->
 		</div><!-- /container -->
 	</div><!-- /home-portfolio -->
-	<!-- /PORTFOLIO ALBUMS -->
+	
 
 	{% endblock %}
 

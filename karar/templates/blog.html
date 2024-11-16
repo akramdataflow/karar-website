@@ -1,0 +1,45 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block body %}
+<!-- /PAGE INTRO -->
+<div class="topSingleBkg topPageBkg">
+	<div class="container">
+		<div class="inner-desc">
+			<h1 class="post-title single-post-title">Blog</h1>
+		</div>
+	</div>
+</div>
+<!-- /PAGE INTRO -->
+<!-- CONTENT -->
+<div class="container blog-holder">
+	<div class="row">
+		<div class="col-lg-12">
+			<section id="wrap-content" class="blog-1col-list-left">
+				{% for post in postes %}
+				<article class="blog-item blog-item-1col-list">
+					<div class="post-image">
+						<a href="{% url 'gallery' post.id %}">
+							<div class="list-image" style="background-image:url('{{post.post.url}}');"></div>
+						</a>
+					</div>
+					<div class="post-holder ">
+						<ul class="post-meta">
+							<li class="meta-date">{{post.published_date}}</li>
+							<li class="meta-categ"><a href="#" rel="category tag">News</a></li>
+						</ul>
+						<h2 class="article-title"><a href="blog-single-post.html">{{ post.name }}</a></h2>
+						<div class="article-excerpt"> {{post.additional_info}}</div>
+					</div>
+				</article>
+				{% endfor %}
+				
+			</section>
+		</div>
+		<!-- /col-lg-12 -->
+	</div>
+	<!-- /row -->
+</div>
+<!-- /container -->
+<!-- /CONTENT -->
+
+{% endblock %}

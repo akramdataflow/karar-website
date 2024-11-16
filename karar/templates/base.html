@@ -5,7 +5,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio - Fotonia</title>
+    <title>Karar abdulah</title>
     
     <!-- Google Fonts -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,700|Poppins:300,400,500,600,700">
@@ -35,11 +35,9 @@
 		<div class="modal-menu-container">
 			<div class="exit-mobile"> <span class="icon-bar1"></span> <span class="icon-bar2"></span></div>
 			<ul id="menu-menu-1" class="menu-mobile">
-				<li class="menu-item"><a href="#">Home</a></li>
-				<li class="menu-item"><a href="pricing.html">Portfolio</a></li>
-				<li class="menu-item"><a href="pricing.html">Blog</a></li>
+				<li class="menu-item"><a href="{% url 'home' %}">Home</a></li>
+				<li class="menu-item"><a href="{% url 'blog' %}">Blog</a></li>
 				<li class="menu-item"><a href="pricing.html">Pages</a></li>
-				<li class="menu-item"><a href="pricing.html">Pricing</a></li>
 				<li class="menu-item"><a href="contact.html">Contact</a></li>
 			</ul>
 		</div>
@@ -66,19 +64,15 @@
 						alt="Fotonia"></a></div>
 			<nav class="nav-holder nav-holder-1">
 				<ul id="menu-menu-2" class="menu-nav menu-nav-1">
-					<li class="menu-item menu-item-has-children current-menu-item">
-						<a href="index.html">Home</a>
+					<li class="menu-item menu-item-has-children ">
+						<a href="{% url 'home' %}">Home</a>
 					</li>
 					<li class="menu-item">
-						<a href="portfolio.html">Portfolio</a>
-					</li>
-					<li class="menu-item">
-						<a href="blog.html">Blog</a>
+						<a href="{% url 'blog' %}">Blog</a>
 					</li>
 					<li class="menu-item">
 						<a href="#">Pages</a>
 					</li>
-					<li class="menu-item"><a href="pricing.html">Pricing</a></li>
 					<li class="menu-item"><a href="contact.html">Contact</a></li>
 				</ul>
 			</nav>
@@ -102,24 +96,7 @@
 	<footer>
 		<div class="container">
 			<div id="footer-instagram">
-				<ul class="instagram-pics instagram-size-small">
-					<li class=""><a href="#" target="_blank" class=""><img src="{% static 'images/insta/insta-1.jpg' %}" alt="" /></a>
-					</li>
-					<li class=""><a href="#" target="_blank" class=""><img src="{% static 'images/insta/insta-2.jpg' %}" alt="" /></a>
-					</li>
-					<li class=""><a href="#" target="_blank" class=""><img src="{% static 'images/insta/insta-3.jpg' %}" alt="" /></a>
-					</li>
-					<li class=""><a href="#" target="_blank" class=""><img src="{% static 'images/insta/insta-4.jpg' %}" alt="" /></a>
-					</li>
-					<li class=""><a href="#" target="_blank" class=""><img src="{% static 'images/insta/insta-5.jpg' %}" alt="" /></a>
-					</li>
-					<li class=""><a href="#" target="_blank" class=""><img src="{% static 'images/insta/insta-6.jpg' %}" alt="" /></a>
-					</li>
-					<li class=""><a href="#" target="_blank" class=""><img src="{% static 'images/insta/insta-7.jpg' %}" alt="" /></a>
-					</li>
-					<li class=""><a href="#" target="_blank" class=""><img src="{% static 'images/insta/insta-8.jpg' %}" alt="" /></a>
-					</li>
-				</ul>
+				
 				<p class="clear"><a href="#" rel="me" target="_blank" class="">Follow Me!</a></p>
 			</div>
 			<!-- /footer-instagram -->

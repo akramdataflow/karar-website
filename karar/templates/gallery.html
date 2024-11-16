@@ -1,0 +1,55 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block body %}
+
+<!-- /PAGE INTRO -->
+<div class="topSingleBkg topPageBkg">
+	<div class="container">
+		<div class="inner-desc">
+			<h1 class="post-title single-post-title">{{ post.name }}</h1>
+		</div>
+	</div>
+</div>
+<!-- /PAGE INTRO -->
+
+<!-- CONTENT -->
+<div id="wrap-content" class="page-content page-portfolio-content">
+	<div class="container">
+		<div class="row">
+			{% for postes_detale in post_list %}
+			<div class="col-lg-6 margin-bm24">
+				<p>{{postes_detale.lift_side_content}}
+				</p>
+			</div>
+			<div class="col-lg-6">
+				<p>{{postes_detale.right_side_content}}
+				</p>
+			</div>
+			{% endfor %}
+		</div>
+		<!-- /row -->
+	</div>
+	<!-- /container -->
+</div>
+<!-- /CONTENT -->
+
+<!-- GALLERY -->
+<div class="gallery-container">
+	<div class="fullscreen-container fs-gallery">
+		<div class="row layout-masonry gallery-holder gallery-masonry4cols">
+			{% for image in images %}
+			<div class="col-sm-6 col-lg-3 blog-item-masonry gallery-post">
+				<a href="{{ image.image.url }}" class="lightbox" title="">
+					<img class="img-fluid" src="{{ image.image.url }}" alt="Gallery Image">
+				</a>
+			</div>
+			{% endfor %}
+		</div>
+		<!-- /row -->
+	</div>
+	<!-- /container -->
+</div>
+<!-- /GALLERY -->
+
+
+{% endblock %}
