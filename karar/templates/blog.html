@@ -27,7 +27,7 @@
 							<li class="meta-date">{{post.published_date}}</li>
 							<li class="meta-categ"><a href="#" rel="category tag">News</a></li>
 						</ul>
-						<h2 class="article-title"><a href="blog-single-post.html">{{ post.name }}</a></h2>
+						<h2 class="article-title"><a href="{% url 'gallery' post.id %}">{{ post.name }}</a></h2>
 						<div class="article-excerpt"> {{post.additional_info}}</div>
 					</div>
 				</article>

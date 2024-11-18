@@ -25,3 +25,9 @@ def blog(request):
     post_list = PostDetails.objects.all()
     context = {'postes':post_list}
     return render(request, 'blog.html', context)
+
+def contact(request):
+    return render(request, 'contact.html')
+
+def about(request):
+    return render(request, 'about-me.html')

@@ -7,7 +7,10 @@ def image_upload(instance, filename):
 CATEGORY_CHOICES = [
     ('weddings', 'Weddings'),
     ('portraits', 'Portraits'),
-    ('nature', 'Nature'),
+    ('product', 'Product'),
+    ('graduation', 'Graduation'),
+    ('story', 'Story'),
+    ('fashion', 'Fashion'),
 ]
 
 # نموذج الألبوم

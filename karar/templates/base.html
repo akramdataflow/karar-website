@@ -37,20 +37,17 @@
 			<ul id="menu-menu-1" class="menu-mobile">
 				<li class="menu-item"><a href="{% url 'home' %}">Home</a></li>
 				<li class="menu-item"><a href="{% url 'blog' %}">Blog</a></li>
-				<li class="menu-item"><a href="pricing.html">Pages</a></li>
-				<li class="menu-item"><a href="contact.html">Contact</a></li>
+				<li class="menu-item"><a href="{% url 'about' %}">About Me</a></li>
+				<li class="menu-item"><a href="{% url 'contact' %}">Contact</a></li>
 			</ul>
 		</div>
 		<div class="menu-contact">
 			<ul class="mobile-contact">
-				<li class="mobile-email">contact@example.com</li>
-				<li class="mobile-phone">+1 800 000 111</li>
+				<li class="mobile-email">kararabdullah11k@gmail.com</li>
+				<li class="mobile-phone">+964 774 444 3118</li>
 			</ul>
 			<ul class="social-media">
-				<li><a class="social-facebook" href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-				<li><a class="social-twitter" href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
-				<li><a class="social-pinterest" href="#" target="_blank"><i class="fab fa-pinterest"></i></a></li>
-				<li><a class="social-instagram" href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
+				<li><a class="social-instagram" href="https://www.instagram.com/kararabdallah1?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank"><i class="fab fa-instagram"></i></a></li>
 			</ul>
 		</div>
 	</div>
@@ -60,8 +57,7 @@
 		<div class="header-container">
 			<div class="nav-button-holder"> <button type="button" class="nav-button"> <span class="icon-bar"></span>
 				</button></div>
-			<div class="logo logo-1"><a href="index.html"><img class="img-fluid" src="{% static 'images/fotonia-logo.png' %}"
-						alt="Fotonia"></a></div>
+			<div class="logo logo-1"></div>
 			<nav class="nav-holder nav-holder-1">
 				<ul id="menu-menu-2" class="menu-nav menu-nav-1">
 					<li class="menu-item menu-item-has-children ">
@@ -71,17 +67,14 @@
 						<a href="{% url 'blog' %}">Blog</a>
 					</li>
 					<li class="menu-item">
-						<a href="#">Pages</a>
+						<a href="{% url 'about' %}">About Me</a>
 					</li>
-					<li class="menu-item"><a href="contact.html">Contact</a></li>
+					<li class="menu-item"><a href="{% url 'contact' %}">Contact</a></li>
 				</ul>
 			</nav>
 			<div class="header-social header-social-1">
 				<ul class="social-media">
-					<li><a class="social-facebook" href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-					<li><a class="social-twitter" href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
-					<li><a class="social-pinterest" href="#" target="_blank"><i class="fab fa-pinterest"></i></a></li>
-					<li><a class="social-instagram" href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
+					<li><a class="social-instagram" href="https://www.instagram.com/kararabdallah1?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank"><i class="fab fa-instagram"></i></a></li>
 				</ul>
 			</div>
 		</div>
@@ -95,14 +88,9 @@
 	<!-- FOOTER -->
 	<footer>
 		<div class="container">
-			<div id="footer-instagram">
-				
-				<p class="clear"><a href="#" rel="me" target="_blank" class="">Follow Me!</a></p>
-			</div>
+			
 			<!-- /footer-instagram -->
-			<div class="copyright">
-				<div class="footer-copy"> Copyright &copy; 2019, MatchThemes.com</div>
-			</div>
+			
 		</div>
 		<!-- /container -->
 	</footer>
