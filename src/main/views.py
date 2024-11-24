@@ -1,13 +1,19 @@
-from django.shortcuts import render,  get_object_or_404
+from django.shortcuts import render, get_object_or_404
 from .models import Post, Gallery, PostDetails
+from django.shortcuts import render
 
-# Create your views here.
+from .signals import compress_post_image  # تأكد من استيراد الإشارة بشكل صحيح
 
 def main(request):
+    """
+    عرض الصفحة الرئيسية مع الصور.
+    """
+    # الحصول على كل المنشورات
     post_list = Post.objects.all()
-    context = {'postes':post_list}
-    return render(request, 'home-4.html', context)
 
+    # إعداد السياق لتمريره إلى القالب
+    context = {'postes': post_list}
+    return render(request, 'home-4.html', context)
 
 def portfolio(request):
     post_list = Post.objects.all()
